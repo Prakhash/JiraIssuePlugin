@@ -44,8 +44,8 @@ public class JiraIssueCreatorExtension extends ExtensionAdaptor {
     JiraRestClient jira = new JiraRestClient();
     UpdateJiraAttachments updateJiraAttachments = new UpdateJiraAttachments();
 
-    private static final ImageIcon ICON = new ImageIcon(
-            JiraIssueCreatorExtension.class.getResource(IssueCreatorConstants.RESOURCE + "/cake.png"));
+//    private static final ImageIcon ICON = new ImageIcon(
+//            JiraIssueCreatorExtension.class.getResource(IssueCreatorConstants.RESOURCE + "/cake.png"));
     private JiraIssueCreatorAPI jiraIssueCreatorAPI = null;
     private ZapMenuItem menuExample = null;
     private AbstractPanel statusPanel = null;

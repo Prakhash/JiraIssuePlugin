@@ -43,6 +43,7 @@ public class JiraIssueCreatorAPI extends ApiImplementor {
     }
 
     @Override public String getPrefix() {
+        log.info("This method is called");
         return IssueCreatorConstants.PREFIX;
     }
 
